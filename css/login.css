@@ -1,0 +1,87 @@
+body{
+  background: url("../images/Background\ 2.jpg") no-repeat;
+}
+.leafimg{
+  animation: none;
+}
+.box{
+  margin: 110px 0 200px 0;  
+  text-align: center;
+  border:2px solid rgba(252, 206, 136, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  background: transparent;
+}
+.boxtwo{
+  margin: 80px 0;
+}
+.box h1{
+  color: #e08b0a;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 40px 0;
+  transition: 0.6s;
+  
+}
+.box input{
+  border:0;
+  background: transparent;
+  display: block;
+  margin: 25px auto;
+  text-align: center;
+  border: 2px solid #28a745 ;
+  padding: 12px 10px;
+  width: 280px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.box input:focus{
+  width: 350px;
+  border-color: #28a745;
+}
+
+.box input[type = "submit"]{
+  width: 130px;
+  border:0;
+  background: none;
+  display: block;
+  margin: 35px auto;
+  text-align: center;
+  border: 2px solid #ffd900;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 15px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #ffd900;
+  color: black;
+}
+.boxtwo input[type = "submit"]{
+  margin: 40px auto 100px;
+  color: white;
+}
+.box a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin: 20px 40px;
+}
+.box a:hover{
+  color: rgb(220,220,220);
+}
+
+@media (max-width:576px){
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 320px;
+    
+  }
+}
